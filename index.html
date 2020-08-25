@@ -1,0 +1,609 @@
+<html>
+    <head>
+        <title>#1jobs india</title>
+       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+              
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   
+        <style>
+           h1{ 
+                     width: 300px;
+                     height: 100px;
+                     padding-left: 50px;
+                     padding-top: 35px;
+            }
+            h1:hover{
+              color: white;
+            }
+            h2{
+                 
+                   width: 250px;
+                   text-align: center;
+                   padding-right: 30px;
+                   border-radius: 40px;
+            } 
+
+            h4{
+              background-color: rgb(9, 228, 236);
+              text-align: center;
+            
+            }
+            h5{
+              margin-top: 30px;
+              color: #10b6ee;
+            }
+
+            #d1{
+                width: 1500px;
+                height: 1330px;
+                background-color: rgb(23, 246, 253);
+            }
+            #d2{
+                width: 1500px;
+                height: 130px;
+                background-color: rgb(25, 238, 220);
+            }
+            #d4{
+                width: 620px;
+                height: 900px;
+                background-color: rgb(237, 245, 245);
+                float:right;
+            }
+            #d3 {
+                width: 200px;
+                height: 900px;
+                background-color: #f5f8f8;
+                float: left;
+            }
+           #d5{
+               width: 1500px;
+               height: 200px;
+               background-color: #053442;
+               text-align: center;
+               float: left;
+
+            
+           }
+           #d10{
+              width: 690px;
+                height: 900px;
+                background-color: rgb(19, 248, 248);
+                float:left;
+             
+            }
+          
+         
+         #in{
+               margin: auto;
+               border-right-style: hidden;
+               border-left-style: hidden;
+               border-top-style: hidden;
+               border-bottom-style: groove;
+               border-bottom: 2px ridge rgb(58, 57, 57);}
+
+               
+              
+                  
+                  
+               
+               #vldform{
+                   
+                   background-color: rgb(253, 253, 253);
+             
+                width: 600px;
+                height: 900px;
+                padding-left: 180px;
+                float: right;
+
+                
+               }
+               #lb{
+               
+                padding-left: 10px;
+               }
+               #ip{
+                border-right-style: hidden;
+               border-left-style: hidden;
+               border-top-style: hidden;
+               border-bottom: 1px ridge red;
+               outline: none;
+               }
+               #ip:hover{
+                   border-bottom: 2px solid slateblue;
+                   border-right-style: hidden;
+               border-left-style: hidden;
+               border-top-style: hidden;
+              
+               
+               }
+               #p1,#p2,#p3,#p4,#p5{
+                   color: red;
+               }
+           
+               
+                #n1{
+                   
+                   
+                   padding-left: 20px;
+
+                }
+                #n2{
+                   
+                   
+                   padding-left: 560px;
+                }
+#srh{
+
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  background: rgb(252, 248, 248);
+}
+                
+               
+               
+        #p7{
+         padding-left: 20px;
+        }
+        #ll{
+          color: #e7f0f3;
+        }
+
+        #ta:hover{
+    
+       border: solid 2px red;
+        } 
+        #nv{
+          width: 1500px;
+          height: 50px;
+          background-color: teal;
+          float: left;
+        }
+       
+       
+        </style>
+
+
+<script> 
+
+
+function  validatemyform1()                                    
+{ 
+    var name = document.forms["form1"]["name"]; 
+                
+    var email = document.forms["form1"]["Email"]; 
+    var password = document.forms["form1"]["password"]; 
+  
+
+    var phone = document.forms["form1"]["telephone"];  
+      
+   
+    var address = document.forms["form1"]["adress"];  
+     
+    
+    var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+
+   
+
+ 
+    if (name.value == "")                                  
+    { 
+        document.getElementById("p1").innerHTML="ENYTER YOUR  NAME "; 
+        name.focus(); 
+       
+        return false; 
+      
+    } 
+    
+
+    if (email.value == "")                                   
+    {   
+        document.getElementById("p2").innerHTML="ENTER YOUR E-MAIL ID"; 
+        email.focus(); 
+    
+        return false; 
+       
+    } 
+    if(mailformat.test(email.value)==false){
+        document.getElementById("p2").innerHTML="ENTER VALID E-MAIL ID"; 
+        email.focus(); 
+        return false;
+    }
+  
+    
+ 
+   
+    if (password.value == "")                      
+    { 
+        document.getElementById("p3").innerHTML="ENTER PASSWORD";
+        password.focus(); 
+        return false; 
+    } 
+    if(password.value.length<6||password.value.length>15)   {
+        document.getElementById("p3").innerHTML="PASSWORD MUST BE 6 TO 15 CHARECTERS";
+        return false;
+    }
+    
+
+
+
+    if (address.value == "")                               
+    { 
+        document.getElementById("p4").innerHTML="ENTER YOUR ADDRESS"; 
+        address.focus(); 
+        return false; 
+    } 
+    if (phone.value == "")     
+    { 
+        document.getElementById("p5").innerHTML="ENTER YOUR MOBILE NUMBER";
+        phone.focus(); 
+        return false; 
+    } 
+    if(isNaN( phone.value)||phone.value.length!==10){
+        document.getElementById("p5").innerHTML="ENTER  VALID MOBILE NUMBER";
+        phone.focus(); 
+        return false; 
+    } 
+   
+
+  
+   alert( name.value+" ur account sucessfully  created");
+
+
+    return true; 
+    
+}
+
+
+
+
+function submit(){
+  var E = document.getElementById("l1");
+ var P= document.getElementById("l2");
+ var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+ 
+ if (E.value == "")                                   
+    { 
+        document.getElementById("lp1").innerHTML="ENTER YOUR E-MAIL ID"; 
+        E.focus(); 
+        return false; 
+    } 
+     
+  
+    if(mailformat.test(E.value)==false){
+   document.getElementById("lp1").innerHTML="ENTER VALID E-MAIL ID"; 
+        E.focus(); 
+        return false;
+     
+    }
+    if(P.value ==""){
+    
+      document.getElementById("lp2").innerHTML="enter  password";
+      p.focus();
+      return false;
+    }
+    
+
+    var myobj = document.getElementById("form2");
+  myobj.remove();
+  
+  var myobj = document.getElementById("lg");
+  myobj.remove();
+  
+  document.getElementById("sf").innerHTML="login sucessfull";
+  
+ return true;
+}
+ function jobtype(){
+   alert("you need to login for this");
+ }
+
+
+
+</script>  
+             
+  
+
+        
+           </head>
+    <body>
+
+<div id="d1 ">
+<div id="d2">
+    <h1>#1 jobs india</h1>
+    
+    <div id="nv" >
+
+    <nav  id="n1"  class="navbar navbar-expand-sm bg-basic navbar-light">
+                    
+                
+        <ul class="navbar-nav">
+
+
+          <li id="n1"  class="nav-item"> 
+
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
+MYJOBS
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h2 class="modal-title" id="exampleModalLabel">applied history</h2>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<h5>you don't have applied history</h5>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+            <li  id="n1"  class="nav-item dropdown">
+                <a   id="nv3" class="btn btn-info dropdown-toggle dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 JOB TYPE
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                  <a     id="dd1"   class="dropdown-item"  onclick=" jobtype()" href="#">PART TIME</a>
+                  <a   id="dd2" class="dropdown-item"   onclick=" jobtype()"  href="#">FULL TIME</a>
+                  
+                  <a  id="dd3"class="dropdown-item"  onclick=" jobtype()"   href="#">FRESHER</a>
+                  <a   id="dd3"class="dropdown-item" onclick=" jobtype()"  href="#">ENTRY LEVEL</a>
+                  <a   id="dd4"class="dropdown-item"  onclick=" jobtype()"  href="#">EXPERIENCED</a>
+                </div>
+              </li>
+           
+              <li id="n1"   class="nav-item"> 
+                <button  type="button" class="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter">
+                  Login
+                </button>
+                
+                
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">login</h5>
+                      <p id="p6"></p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                       <h3 style="color: rgb(48, 129, 235);"  id="sf"   ></h3>
+                        <form action="" name="form2" id="form2" >
+                        <label  id="lb">E-mail ADRESS  <span style="color: red;">*</span> </label><br>
+                        <input type="text"  id="l1" class="no-outline"     name="MAIL" ><br>
+                        <p id="lp1" style="color: red;" ></p>
+                        <label  id="lb"  >PASSWORD  <span style="color: red;">*</span> </label><br>
+                        <input type="password"  id="l2"   class="no-outline"     name="pWD" ><br>
+                        <p id="lp2" style="color: red;"></p>
+                      </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button  type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button onclick="submit()"  id="lg"  type="button"   class="btn btn-primary">Login</button>
+                     
+                      </div>
+                    </div>
+                  </div> 
+                </div> </li>
+            
+          
+                <li id="n1"  class="nav-item"> 
+
+             
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
+ ABOUT
+</button>
+
+
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">about us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       we are providing daily thousands of jobs for freshers experienced , and entrylevel job seekers.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+                    
+                    
+                    
+
+                </li>
+                    <li id="n1"  class="nav-item"> 
+                 
+<button type="button" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-lg">career tips</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <p style="padding-left: 10px;" ><b> 1) Maintain your focus.</b>
+        <br>
+        If you’re about to start a new career, it’s time to get laser-focused. What type of work do you want to do? What types of projects do you want to work on? Get clear on what your dream career looks like and deprioritize anything that’s not on your goal list.
+        <br> <br>
+        
+        
+       <b> 2. Do your research.</b>
+        <br>
+        Thanks to Google (and Bing and Yahoo) job searching resources are at our fingertips! Interested in working at a specific company? Check out Glassdoor to see what employees are saying about it. Get informed–it might even lead you to a new company (or title) you haven’t heard of before.
+        <br>
+        
+        <br>
+         <b>3. Remove distractions. </b>
+        <br>
+        Learning something new or doing research to change careers can be daunting, so always aim to work in environments that allow you to be the most productive. Make sure your home office or coffee shop has what you need to be successful.
+        <br><br>
+      <b> 4. Learn the fundamentals of the industry.</b>
+        <br>
+        If you’re making the leap into a completely new field, do your best to learn the basics. Find out what the typical job titles and roles consist of and learn about the types of career path options you could take. Start with the entry level and work your way up to see what it would take to become a manager or director in your respective field.
+        <br><br>
+      <b> 5. Tap into your network.</b>
+        
+        <br>
+        Ready to become a software engineer and know a friend (or a friend of a friend) who is one? Reach out to them! Buy them coffee, find out about their process, dig into what they wish they knew when they got started.  Even if you’ve had three jobs before making the switch, there’s always room to learn more. Worst case, you’ll get some insider info. Best case––they might be the contact that helps you nab your next role.  
+        <br><br>
+        
+        </p>
+        <button  type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+
+      </li>
+    </ul>  
+        </nav>
+</div>
+</div>
+<div id="d3"> <legend style="color: rgb(58, 61, 241);" >latest</legend>
+    <h4>NOTIFICATIONS</h4>
+        <marquee  height="400px"  behavior="slowscroling"  scrollamount="1"  direction="up">
+       <a href=" "  style="color: red;"> eTechno Labs hiring  UI UX Designer </a><br>
+     <a href=""  style="color: red;"> eTechno Labs hiring   Front End Developer.  </a> 
+     <br>
+     <a href=""  style="color: red;"> eTechno Labs hiring Sales Executive</a>
+     <a href=""  style="color: red;">eTechno Labs hiring  passionate Japanese language Expert </a>
+     <a href=""  style="color: red;">eTechno Labs hiring  passionate German language Expert </a>
+     <a href=""  style="color: red;"> eTechno Labs hiring passionate French language Expert</a>
+     <a href=" "  style="color: red;"> eTechno Labs hiring  Business Development Executive  </a><br>
+    </marquee> </div>
+    <div id="d10">
+        <h1>#1 jobs india</h1>
+        <p id="p7" > <b>#1jobs india</b> is one of the best popular job sites in India, always help jobseeker mainly freshers to 
+          find latest jobs in accordance with the qualification in all possible fields like Govt, Private, Engineering, 
+          IT, Bank, Defence etc. As a leading job portal, once freshers register with us we provide free job alert and 
+          send mailers to candidates and helps to find best job opportunities in their respective fields of expertise.
+           #1jobs india is the best website for freshers who just completed their education and looking for job, as a
+            top online job portal we act as medium to connect freshers with recruiters and employers
+           and help them to find their suitable jobs according to their profession and educational qualification.</p> <br><br>
+           <p id="p7"> If you are interested in looking for a job after your degree, here is the chance to find yourself a job...
+              Here you can find government as well as private jobs in the field. Be it mechanical engineering jobs, civil engineering jobs,
+               electrical engineering jobs, biotechnology jobs, B.Tech jobs, MCA Jobs etc. Get the top Jobs for Graduates, with an extensive list
+                of all graduate jobs online. Freshersworld is one of the Top Fresher job sites in India, with over 1000 companies listing jobs online.
+                 In the field of commerce, we have chartered accountant jobs, company secretary jobs. Apart from CA jobs we have BBA jobs, government 
+                 jobs for MBA, supply chain management jobs, jobs for B.Com graduates, diploma jobs etc. Supply chain management jobs and government jobs 
+                 for MBA are also listed here. Specially, there are jobs for Graduates in Major cities Including Mumbai, Bangalore, Hyderabad, Delhi Chennai
+                  and more. Freshers applying for the best jobs can improve their chances by taking our placement tests. Freshersworld is the number one job
+                   site for Freshers in India. We have jobs in across all fields including management, BPO, Engineering, medical and research field as well. 
+                   There are pharmacy jobs, veterinary jobs,
+              MSc chemistry jobs, testing jobs and lab technician jobs to name a few. Search and apply for jobs for freshers and find the latest jobs online.</p>
+          </div>
+<div id="d4">  
+    <form action="" name="form1" id="vldform" onsubmit="return validatemyform1()">
+        <br><br>
+        <h2>create account</h2>
+        <p style="color: red;">*Required</p>
+        <br> 
+        
+        
+        <label for="ip" id="lb">NAME  <span style="color: red;">*</span> </label><br>
+        <input type="text"  class="no-outline"  id="ip"  name="name" ><br>
+        <p id="p1"></p>
+    
+        <br>
+        
+        <label for="ip" id="lb">E-mail ADRESS  <span style="color: red;">*</span> </label><br>
+        <input type="text"  class="no-outline"    id="ip" name="Email" ><br>
+        <p id="p2"></p>
+        
+        <label for="ip" id="lb">PASSWORD  <span style="color: red;">*</span> </label><br>
+        <input type="text"   class="no-outline"     id="ip" name="password" ><br>
+        <p id="p3"></p>
+        
+        <label for="ip" id="lb">ADDRESS <span style="color: red;">*</span> </label><br>
+        <input type="text"     class="no-outline" id="ip" name="adress" ><br>
+        <p id="p4"></p>
+        
+        <label for="ip" id="lb">MOBILE NUMBER  <span style="color: red;">*</span> </label><br>
+        <input type="text"   class="no-outline"      id="ip"name="telephone" ><br>
+        <p id="p5"></p>
+       
+           <label id="lb" for="">ABOUT YOUR SELF</label> <br>
+              <textarea cols="40" name="Comment" id="ta">  </textarea><br><br>
+            <input  class="btn btn-primary"   type="submit" value="create" name="Submit">      
+                <input  class="btn btn-primary"  type="reset" value="reset" name="Reset">  
+               
+                <button  onsubmit="" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                  Login
+                </button>
+                
+                
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">login</h5>
+                      
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <label  id="lb">E-mail ADRESS  <span style="color: red;">*</span> </label><br>
+                        <input type="text"  class="no-outline"     name="MAIL" ><br>
+                        <p id="lp1"></p>
+                        <label  id="lb">PASSWORD  <span style="color: red;">*</span> </label><br>
+                        <input   type="text"   class="no-outline"     name="pWD" ><br>
+                        <p id="lp2"></p>
+    
+                      </div>
+                      <div class="modal-footer">
+                        <button  type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button   type="button"   class="btn btn-primary">Login</button>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                <br><br><br> 
+               
+        </form> </div>
+<div id="d5">
+
+    <h5>Stay Connected </h5> 
+    <label for="" id="ll">Facebook</label> <a href="">#1jobs.fscebook.in</a>
+   <label for=""  id="ll">Twitter</label>  <a href="">@#1jobs</a><br>
+   <label for=""  id="ll">Linkedin</label> <a href="">#1jobs.linkedin.com</a>
+   <label for=""  id="ll">Instagram</label> <a href="">#d31jobs4536</a><br>
+   <label for=""  id="ll">Youtube</label> <a href="">#jobs india channel</a>
+</div>
+
+
+
+
+</div>
+
+
+
+    </body>
